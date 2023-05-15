@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(60, 55, 55);
+    background-color: #0756ac;;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -9,12 +9,13 @@ body{
 }
 h4{
     color: #fff;    
-    line-height: 2em;
+    line-height: 1em;
 }
 p{
-    color: gray;
-    line-height: 2em;
+    color: #fff;
+    line-height: 1em;
 }
 a{
-    color: gray;
+    color: #fff;
+    text-decoration: none;
 }
