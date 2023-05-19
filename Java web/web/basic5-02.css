@@ -107,3 +107,8 @@ i {
     white-space: nowrap;
 }
 
+.card-content p {
+    display: flex;
+    justify-content: space-between;
+}
+
