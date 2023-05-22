@@ -70,6 +70,10 @@
     display: none;
   }
 
+  .menu .main-menu .menu-item:hover {
+    color: #c4c4c4;
+  }
+
   .menu .main-menu .menu-item:hover .sub-menu {
     display: block;
   }

@@ -10,6 +10,22 @@
   
   img {
     max-width: 100%;
+
+  }
+
+  .card img {
+    position: relative;
+    right: 0;
+    left: 0;
+
+    transition: all 1s;
+  }
+
+  .card-image {
+    overflow: hidden;
+  }
+  .card img:hover {
+    transform: scale(1.2);
   }
   
   ul {
@@ -113,11 +129,21 @@
     flex-basis: 33.33%;
     padding: 10px;
   }
+
+  .card-item a {
+    text-decoration: none;
+  }
   
   .card {
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     overflow: hidden;
+
+    transition: all 1s;
+  }
+
+  .card:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
   }
   
   .card-image {
