@@ -1,0 +1,81 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("https://phunugioi.com/wp-content/uploads/2021/01/anh-cay-thong-noel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    overflow: hidden; 
+
+    position: relative;
+}
+
+.snow {
+    position: relative;
+    display: flex;
+}
+
+.snow span:nth-child(even) {
+    min-width: 10px;
+    height: 10px;
+}
+
+.snow span {
+    position: relative;
+    min-width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 1vw;
+    box-shadow: -100px 20px 5px #fff, 100px 20px 10px #fff;
+    animation: animateSnow 15s linear infinite;
+    animation-duration: calc(75s/ var(--i));
+}
+
+@keyframes animateSnow {
+    0% { 
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+.card {
+    position: relative;
+    left: 40%;
+}
+
+.card .text {
+    width: 500px;
+    height: 400px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    color: #fff;
+    border: #fff solid;
+    padding: 20px;
+}
+
+h2 
+{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.dear {
+    text-align: justify;
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+}
