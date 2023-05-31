@@ -1,5 +1,10 @@
 package com.ducanh.app;
 
-public class Compare2digit {
+import java.util.Scanner;
 
-}
+public class Compare2digit {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap so");
+    }
+
